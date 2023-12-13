@@ -1,0 +1,81 @@
+/* 项目公用样式 */
+
+/* 头部卡片 */
+.love-card {
+	/* background-image: url("@/assets/image/shaoyaohuaBg.jpeg"); */
+	background-size: cover;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+    color: #333;
+    background-color: transparent;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	
+	.card-content {
+		display: flex;
+	}
+	.love-card {
+		padding: 10px;
+	}
+	.image-box {
+		width: 40px;
+		height: 50px;
+		background-size: cover;
+		background-image: url("@/assets/image/birthdayGirl.png");;
+	}
+	.days {
+		flex: 1;
+		line-height: 50px;
+	}
+}
+.text-content {
+	color: #333;
+	text-align: left;
+    padding: 30px 40px;
+    font-size: 18px;
+    // background: #f9ddc2;
+    background: #fff;
+	border-radius: 10px;
+	margin-top: 10px;
+	p {
+		padding-bottom: 15px;
+	}
+	.time {
+		background: #f6f6f6;
+		font-size: 12px;
+		padding: 10px;
+		border-radius: 10px;
+	}
+	.title {
+		padding: 0;
+		margin-bottom: 10px;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.sub-title {
+		background: #f6f6f6;
+		font-size: 14px;
+		padding: 5px 10px;
+		border-radius: 10px;
+		margin-bottom: 15px;
+	}
+	.pagination {
+		background: #f6f6f6;
+		font-size: 14px;
+		padding: 15px;
+		border-radius: 10px;
+		margin: 15px 0;
+		text-align: center;
+		span {
+			border-radius: 3px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			padding: 5px 15px;
+			margin-right: 15px;
+		}
+	}
+}
+.text-center {
+	text-align: center;
+}

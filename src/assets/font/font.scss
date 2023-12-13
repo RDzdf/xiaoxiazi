@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "阿里妈妈刀隶体";
+    src: url('AlimamaDaoLiTi.ttf'); 
+}
+@font-face {
+    /* 自定义的字体名车，调用该字体时使用 */
+    font-family: "阿里妈妈刀隶体";
+    /* 引用字体包。.ttf后缀不区分大小写，用.TTF也可以 */
+    font-family: "阿里妈妈刀隶体";
+    font-display: swap;
+    src: url('AlimamaDaoLiTi.woff2') format("woff2") url("AlimamaDaoLiTi.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
